@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>leader_board</title>
-<script defer src="bundlebe457ef7808ca26ee79e.js"></script></head>
+<script defer src="bundle82ee2114588906c83f70.js"></script></head>
 <body>
     <header>
         <h1>leaderboard</h1>
@@ -14,19 +14,27 @@
         <section class="score">
             <div class="head">
                 <h2>recent score</h2>
-                <button>refresh</button>
+                <button  id="reload">refresh</button>
             </div>
-            <div class="scores">
-
-            </div>
+            <ul class="scores">
+              <li>name: 100</li>
+              <li>name: 100</li>
+              <li>name: 100</li>
+              <li>name: 100</li>
+              <li>name: 100</li>
+              <li>name: 100</li>
+              <li>name: 100</li>
+            </ul>
         </section>
 
         <section class="add">
             <h2>Add your score</h2>
             <div class="addscore">
-              <input type="text" placeholder="your name">
-              <input type="number" placeholder="your score">
-              <button>submit</button>
+              <form action="" id="add">
+                <input type="text" placeholder="your name" id="name">
+                <input type="number" placeholder="your score" id="score">
+                <button>submit</button>
+              </form>
             </div>
             
         </section>

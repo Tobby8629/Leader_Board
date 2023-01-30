@@ -14,7 +14,7 @@
         <section class="score">
             <div class="head">
                 <h2>recent score</h2>
-                <button>refresh</button>
+                <button  id="reload">refresh</button>
             </div>
             <ul class="scores">
               <li>name: 100</li>
@@ -30,9 +30,11 @@
         <section class="add">
             <h2>Add your score</h2>
             <div class="addscore">
-              <input type="text" placeholder="your name">
-              <input type="number" placeholder="your score">
-              <button>submit</button>
+              <form action="" id="add">
+                <input type="text" placeholder="your name" id="name">
+                <input type="number" placeholder="your score" id="score">
+                <button>submit</button>
+              </form>
             </div>
             
         </section>
