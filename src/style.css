@@ -65,13 +65,13 @@ button:hover {
   background-color: rgb(189, 189, 189);
 }
 
-.addscore {
+#add {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.addscore input {
+#add input {
   width: 100%;
   height: 40px;
   margin: 0.5rem 0;
@@ -82,7 +82,7 @@ button:hover {
   text-transform: capitalize;
 }
 
-.addscore button {
+#add button {
   margin-left: auto;
 }
 
