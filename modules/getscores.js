@@ -1,5 +1,5 @@
 const getScore = (name, score) => {
- const getScore = async () => {
+  const getScore = async () => {
     const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/KAGLMYjbeljx2enKnzJX /scores/',
       {
         method: 'post',
@@ -11,7 +11,7 @@ const getScore = (name, score) => {
       });
     const response = await res.json();
     return response;
-  }
+  };
   getScore();
 };
 

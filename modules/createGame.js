@@ -1,5 +1,5 @@
 const createGame = () => {
-const create = async () => {
+  const create = async () => {
     const get = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/',
       {
         method: 'post',
@@ -8,7 +8,7 @@ const create = async () => {
       });
     const res = await get.json();
     return res;
-  }
+  };
   create();
 };
 export default createGame;
