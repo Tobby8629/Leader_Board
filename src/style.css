@@ -52,6 +52,7 @@ button:hover {
 .scores {
   border: 3px solid rgb(189, 189, 189);
   margin-bottom: 1rem;
+  overflow-wrap: break-word 
 }
 
 .score li {
