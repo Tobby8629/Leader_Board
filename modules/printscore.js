@@ -6,7 +6,7 @@ const print = () => {
     wrapper.appendChild(list);
   };
 
-  async function getResponse() {
+ const getResponse =  async () => {
     const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/KAGLMYjbeljx2enKnzJX /scores/');
     const preData = await response.json();
     return preData;
