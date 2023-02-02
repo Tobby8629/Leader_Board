@@ -5,7 +5,7 @@ const getScore = (name, score) => {
         method: 'post',
         body: JSON.stringify({
           user: name,
-          score,
+          score: score,
         }),
         headers: { 'Content-type': 'application/json' },
       });
